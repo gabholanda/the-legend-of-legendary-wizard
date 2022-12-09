@@ -3,6 +3,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class CardData : ScriptableObject
 {
+
     public Color color = Color.white;
 
     [TextArea(20, 20)]
