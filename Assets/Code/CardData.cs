@@ -1,7 +1,6 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UIElements;
 
+[CreateAssetMenu]
 public class CardData : ScriptableObject
 {
     public Color color = Color.white;
@@ -11,6 +10,8 @@ public class CardData : ScriptableObject
 
     [Range(0, 9)]
     public int cost;
+
+    public GameObject prefab;
 
 
 }
