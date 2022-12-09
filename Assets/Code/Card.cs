@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-abstract class Card : MonoBehaviour
+public abstract class Card : MonoBehaviour
 {
 
     CardData data;

@@ -14,13 +14,13 @@ public class PlayerControler : MonoBehaviour
     Deck deck;
 
 
-    Card chooseCard() { return cards[0] }
+    Card chooseCard() { return cards[0]; }
     void executeCard() { chooseCard().Execute(); }
     void discardRandom() {
         int max = cards.Count;
         int rngNum = RandomNumberGenerator.GetInt32(0, max);
 
-        cards.RemoveAt(rngNum) }
+        cards.RemoveAt(rngNum); }
     void drawRandom() { }
 
 
